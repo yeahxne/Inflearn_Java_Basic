@@ -1,8 +1,8 @@
 package Hash;
 
+import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Scanner;
 
 public class TypeOfSales {
     public ArrayList<Integer> solution(int N, int K, int[] nArray) {
