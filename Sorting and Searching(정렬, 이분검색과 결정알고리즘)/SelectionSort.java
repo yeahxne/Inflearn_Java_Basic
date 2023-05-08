@@ -15,6 +15,7 @@ public class SelectionSort {
             }
             
             /* i번째 값과 찾은 최소값을 서로 교환 */
+            /* Java에서는 swap() 함수가 없기 때문에, 직접 구현해주어야 한다. */
             int tmp = nArray[i];
             nArray[i] = nArray[idx];
             nArray[idx] = tmp;
