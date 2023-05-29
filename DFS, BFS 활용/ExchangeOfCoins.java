@@ -10,6 +10,9 @@ public class ExchangeOfCoins {
         if(sum > M) {
             return;
         }
+        if(level >= answer) {
+            return;
+        }
         if(sum == M) {
             answer = Math.min(answer, level);
         } else {
